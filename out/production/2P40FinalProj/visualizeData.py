@@ -32,6 +32,31 @@ def smooth_data(x, y, degree):
 
 def plot_data(data):
     plt.figure(figsize=(15, 10))
+
+    # Calculate total population per round
+    total_population_per_round = data.groupby('Round')['Population'].sum()
+
+    for group in data['Group'].unique():
+        group_data = data[data['Group'] == group].copy()
+        x = pd.to_numeric(group_data['Round'])
+
+        # Calculate percentage of total population
+        group_data['Percentage'] = group_data.apply(lambda row: (row['Population'] / total_population_per_round.loc[row['Round']]) * 100, axis=1)
+        y = group_data['Percentage']
+
+        # Apply smoothing
+        y_smooth = smooth_data(x, y, 20)
+
+        plt.plot(x, y_smooth, label=group)
+#plt.xscale('log')
+    plt.xlabel('Round')
+    plt.ylabel('Population')
+    plt.title('Smoothed Population of Each Group Across Rounds')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+'''def plot_data(data):
+    plt.figure(figsize=(15, 10))
     j = 0
     for group in data['Group'].unique():
         print("plotting line: " + str(j))
@@ -44,13 +69,12 @@ def plot_data(data):
         y_smooth = smooth_data(x, y, 15)
 
         plt.plot(x, y_smooth, label=group)
-    plt.xscale('log')
     plt.xlabel('Round')
     plt.ylabel('Population')
     plt.title('Smoothed Population of Each Group Across Rounds')
     plt.legend()
     plt.grid(True)
-    plt.show()
+    plt.show()'''
 
 # Replace 'path_to_your_data_file.txt' with the actual path to your data file
 data_file = 'dataToVisualize.txt'

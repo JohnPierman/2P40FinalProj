@@ -81,15 +81,18 @@ public class envHandler {
         algos[6] = new personality(new twobackoneforward(), "twobackoneforward");
         algos[7] = new personality(new twoforwardoneback(), "twoforwardoneback");
         //modify IVS
-        /*algos[0].setPopulation(-8);
-        algos[3].setPopulation(-8);
-        algos[6].setPopulation(-8);
-        algos[4].setPopulation(50);
-        algos[1].setPopulation(50);
-        algos[7].setPopulation(50);*/
+        /*algos[0].setPopulation(-9);
+        algos[2].setPopulation(-9);
+        algos[6].setPopulation(-9);
+        algos[4].setPopulation(100);
+        algos[1].setPopulation(100);
+        algos[7].setPopulation(100);*/
         battler.retValues retValues;
         int j;
         int[][] populationDecay = new int[8][5];
+        for (j = 0; j < 8; j++) {
+            populationDecay[j][0] = algos[j].population;
+        }
         for (int i = 0; i < rounds; i++) {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
@@ -112,17 +115,18 @@ public class envHandler {
                 }
             }
             for (j = 0; j < 8; j++) {
-                for (int k = 1; k < 5; k++) {
+                for (int k = 4; k > 0; k--) {
                     populationDecay[j][k] = populationDecay[j][k - 1];
                 }
                 int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)),size);
+                //System.out.println("Population: "+ algos[j].population+"Net Children: "+ (newChildren - populationDecay[j][4]));
                 algos[j].setPopulation(newChildren - populationDecay[j][4]);
                 populationDecay[j][0] = newChildren;
             }
         }
     }
     public static void main(String[] args){
-        runEnv(1000, 3000);
+        runEnv(2000, 1000);
     }
 }
 
