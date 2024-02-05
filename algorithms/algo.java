@@ -1,6 +1,6 @@
 package algorithms;
 
 public interface algo {
-    public void postMove();
-    public void getMove();
+    public boolean postMove();
+    public void getMove(boolean OppDecision);
 }
