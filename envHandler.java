@@ -81,12 +81,12 @@ public class envHandler {
         algos[6] = new personality(new twobackoneforward(), "twobackoneforward");
         algos[7] = new personality(new twoforwardoneback(), "twoforwardoneback");
         //modify IVS
-        /*algos[0].setPopulation(-9);
-        algos[2].setPopulation(-9);
-        algos[6].setPopulation(-9);
-        algos[4].setPopulation(100);
-        algos[1].setPopulation(100);
-        algos[7].setPopulation(100);*/
+        //algos[0].setPopulation(-5);
+        algos[2].setPopulation(-8);
+        algos[6].setPopulation(-8);
+        algos[4].setPopulation(30);
+        algos[1].setPopulation(30);
+        algos[7].setPopulation(30);
         battler.retValues retValues;
         int j;
         int[][] populationDecay = new int[8][5];

@@ -40,7 +40,7 @@ def plot_data(data):
 
         #plt.plot(x, y_smooth, label=group)
         plt.plot(x, y, label=group)
-    #plt.xscale('log')
+    plt.xscale('log')
     plt.xlabel('log_10(Round)')
     plt.ylabel('Population')
     plt.title('Population of Each Group Across Rounds')
