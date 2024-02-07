@@ -24,6 +24,12 @@ public class envHandler {
      * Experimentally I found the nicest graphs for curves existed around 0.005-0.007 instead of 0{+}
      * This is because there will still be decently steep growth for a sufficient time before it cuts off,
      * but doesn't flatten out as rapidly.
+     *
+     *
+     * Notes:
+     *
+     * I ran 100000 simulations of just c=15, d=5, and got that it converges to d=0 78009 out of 100000 times
+     * or almost exactly 78%
      */
     public static int carryingCapacity(int p, int size) {
         double k = 1;
@@ -155,15 +161,15 @@ public class envHandler {
 
     public static void main(String[] args) {
         int j = 0;
-        for(int i = 0; i < 10000; i++){
+        for(int i = 0; i < 100000; i++){
             personality[] results = runEnv(2000, 500, new int[]{-10, 5, -5, -10, -10, -10, -10, -10});
             if (results[2].population == 0){
                 j++;
             }
-            System.out.println((100 * (float) i / 10000) + "% Completed");
+            System.out.println((100 * (float) i / 100000) + "% Completed");
         }
         System.out.println(j);
-        System.out.println((float)j/10000);
+        System.out.println((float)j/100000);
     }
 }
 
