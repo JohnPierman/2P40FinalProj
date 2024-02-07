@@ -3,7 +3,9 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.File;
-
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import algorithms.*;
 
@@ -25,7 +27,7 @@ public class envHandler {
      */
     public static int carryingCapacity(int p, int size) {
         double k = 1;
-        return (int) Math.ceil((size*(1-Math.exp(5*(k /10000)*-p))));
+        return (int) Math.ceil((size * (1 - Math.exp(5 * (k / 10000) * -p))));
     }
 
     public static int totalPopulation(int[] arr) {
@@ -36,7 +38,7 @@ public class envHandler {
         return j;
     }
 
-    public static int[] createTempPopArr(personality[] arr){
+    public static int[] createTempPopArr(personality[] arr) {
         int[] tempPop = new int[8];
         for (int j = 0; j < 8; j++) {
             tempPop[j] = arr[j].population;
@@ -48,14 +50,14 @@ public class envHandler {
         return (int) Math.floor((double) p.pointTally / carryingCapacity(pop, size));
     }
 
-    public static void outputTable(personality[] algos, int round, int maxRounds, int size){
+    public static void outputTable(personality[] algos, int round, int maxRounds, int size) {
         // Define the file path
         String filePath = "dataToVisualize.txt";
         // Use try-with-resources to ensure the writer is closed properly after use
         try (PrintWriter out = new PrintWriter(new FileWriter(filePath, true))) { // true for append mode, but file is deleted each time method is called
             int n = totalPopulation(createTempPopArr(algos));
             out.printf("Round: %d, Total Population: %d, Points Needed To Reproduce: %d\n", round, n, carryingCapacity(n, size));
-            for (personality p : algos){
+            for (personality p : algos) {
                 out.printf("Name: %s, Population: %d, Point Tally: %d%n", p.name, p.population, p.pointTally);
             }
         } catch (IOException e) {
@@ -65,7 +67,7 @@ public class envHandler {
         System.out.println((100 * (float) round / maxRounds) + "% Processed");
     }
 
-    public static void runEnv(int size, int rounds) {
+    public static String runEnv(int size, int rounds, int[] initPops) {
         String filePath = "dataToVisualize.txt";
         File file = new File(filePath);
         if (file.exists()) {
@@ -82,11 +84,17 @@ public class envHandler {
         algos[7] = new personality(new twoforwardoneback(), "twoforwardoneback");
         //modify IVS
         //algos[0].setPopulation(-5);
-        algos[2].setPopulation(-8);
-        algos[6].setPopulation(-8);
-        algos[4].setPopulation(30);
-        algos[1].setPopulation(30);
-        algos[7].setPopulation(30);
+        //Naughty Algos
+        algos[2].setPopulation(initPops[2]);
+        algos[6].setPopulation(initPops[6]);
+        //Nice Algos
+        algos[1].setPopulation(initPops[1]);
+        algos[7].setPopulation(initPops[7]);
+        //responsive algos
+        algos[0].setPopulation(initPops[0]);
+        algos[3].setPopulation(initPops[3]);
+        algos[4].setPopulation(initPops[4]);
+        algos[5].setPopulation(initPops[5]);
         battler.retValues retValues;
         int j;
         int[][] populationDecay = new int[8][5];
@@ -97,7 +105,7 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            outputTable(algos, i+1, rounds, size);
+            outputTable(algos, i + 1, rounds, size);
             int[] tempPop = createTempPopArr(algos);
             for (j = 0; j < 8; j++) {
                 if (tempPop[j] > 0) {
@@ -118,16 +126,17 @@ public class envHandler {
                 for (int k = 4; k > 0; k--) {
                     populationDecay[j][k] = populationDecay[j][k - 1];
                 }
-                int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)),size);
+                int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)), size);
                 //System.out.println("Population: "+ algos[j].population+"Net Children: "+ (newChildren - populationDecay[j][4]));
                 algos[j].setPopulation(newChildren - populationDecay[j][4]);
                 populationDecay[j][0] = newChildren;
             }
         }
+        return filePath;
     }
-    public static void main(String[] args){
-        runEnv(2000, 1000);
+
+    public static void main(String[] args) {
+        runEnv(2000,1000,new int[]{-10,0,0,-10,-10,-10,-10,-10});
     }
 }
-
 
