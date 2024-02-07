@@ -64,10 +64,12 @@ public class envHandler {
             e.printStackTrace();
         }
 
-        System.out.println((100 * (float) round / maxRounds) + "% Processed");
+        //System.out.println((100 * (float) round / maxRounds) + "% Processed");
     }
 
-    public static String runEnv(int size, int rounds, int[] initPops) {
+    public static personality[] runEnv(int size, int rounds, int[] initPops) {
+        boolean aCheck = false;
+        boolean bCheck = false;
         String filePath = "dataToVisualize.txt";
         File file = new File(filePath);
         if (file.exists()) {
@@ -105,23 +107,39 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            outputTable(algos, i + 1, rounds, size);
+            //outputTable(algos, i + 1, rounds, size);
             int[] tempPop = createTempPopArr(algos);
-            for (j = 0; j < 8; j++) {
-                if (tempPop[j] > 0) {
-                    while (totalPopulation(tempPop) > 1) {
-                        int a = (int) Math.floor(8 * Math.random());
-                        int b = (int) Math.floor(8 * Math.random());
-                        if (tempPop[a] > 0 && tempPop[b] > 0) {
-                            tempPop[a]--;
-                            tempPop[b]--;
-                            retValues = battler.simulate(algos[a].Algo, algos[b].Algo);
-                            algos[a].setPointTally(algos[a].pointTally + retValues.algoApoints);
-                            algos[b].setPointTally(algos[b].pointTally + retValues.algoBpoints);
-                        }
+            while (totalPopulation(tempPop) > 1) {
+                aCheck = false;
+                bCheck = false;
+                int a = 0;
+                while (aCheck == false) {
+                    a = (int) Math.floor(8 * Math.random());
+                    if (tempPop[a] > 0) {
+                        tempPop[a]--;
+                        aCheck = true;
                     }
                 }
+                int b = 0;
+                while (bCheck == false) {
+                    b = (int) Math.floor(8 * Math.random());
+                    if (tempPop[b] > 0) {
+                        tempPop[b]--;
+                        bCheck = true;
+                    }
+                }
+                retValues = battler.simulate(algos[a].Algo, algos[b].Algo);
+                /*if (i < 10) {
+                    if (a == 1 || b == 1) {
+                        System.out.println("A:" + retValues.algoApoints + "B: " + retValues.algoBpoints);
+                        System.out.println("Algo A:" + a + "Algo B: " + b);
+                    }
+                }*/
+
+                algos[a].setPointTally(algos[a].pointTally + retValues.algoApoints);
+                algos[b].setPointTally(algos[b].pointTally + retValues.algoBpoints);
             }
+
             for (j = 0; j < 8; j++) {
                 for (int k = 4; k > 0; k--) {
                     populationDecay[j][k] = populationDecay[j][k - 1];
@@ -132,11 +150,20 @@ public class envHandler {
                 populationDecay[j][0] = newChildren;
             }
         }
-        return filePath;
+        return algos;
     }
 
     public static void main(String[] args) {
-        runEnv(2000,1000,new int[]{-10,5,-5,-10,-10,-10,-10,-10});
+        int j = 0;
+        for(int i = 0; i < 10000; i++){
+            personality[] results = runEnv(2000, 500, new int[]{-10, 5, -5, -10, -10, -10, -10, -10});
+            if (results[2].population == 0){
+                j++;
+            }
+            System.out.println((100 * (float) i / 10000) + "% Completed");
+        }
+        System.out.println(j);
+        System.out.println((float)j/10000);
     }
 }
 
