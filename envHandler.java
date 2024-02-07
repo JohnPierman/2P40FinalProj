@@ -136,7 +136,7 @@ public class envHandler {
     }
 
     public static void main(String[] args) {
-        runEnv(2000,1000,new int[]{-10,0,0,-10,-10,-10,-10,-10});
+        runEnv(2000,1000,new int[]{-10,5,-5,-10,-10,-10,-10,-10});
     }
 }
 
