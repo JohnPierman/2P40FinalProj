@@ -57,9 +57,7 @@ public class envHandler {
     }
 
     public static void outputTable(personality[] algos, int round, int maxRounds, int size) {
-        // Define the file path
         String filePath = "dataToVisualize.txt";
-        // Use try-with-resources to ensure the writer is closed properly after use
         try (PrintWriter out = new PrintWriter(new FileWriter(filePath, true))) { // true for append mode, but file is deleted each time method is called
             int n = totalPopulation(createTempPopArr(algos));
             out.printf("Round: %d, Total Population: %d, Points Needed To Reproduce: %d\n", round, n, carryingCapacity(n, size));
@@ -113,7 +111,7 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            //outputTable(algos, i + 1, rounds, size);
+            outputTable(algos, i + 1, rounds, size);
             int[] tempPop = createTempPopArr(algos);
             while (totalPopulation(tempPop) > 1) {
                 aCheck = false;
@@ -160,16 +158,18 @@ public class envHandler {
     }
 
     public static void main(String[] args) {
-        int j = 0;
-        for(int i = 0; i < 100000; i++){
-            personality[] results = runEnv(2000, 500, new int[]{-10, 5, -5, -10, -10, -10, -10, -10});
+        personality[] results = runEnv(2000, 1000, new int[]{0, 0, 0, 0, 0, 0, 0, 0});
+    }
+        /*int j = 0;
+        for(int i = 0; i < 1000; i++){
+
             if (results[2].population == 0){
                 j++;
             }
-            System.out.println((100 * (float) i / 100000) + "% Completed");
+            System.out.println((100 * (float) i / 1000) + "% Completed");
         }
         System.out.println(j);
-        System.out.println((float)j/100000);
-    }
+        System.out.println((float)j/1000);
+    }*/
 }
 
