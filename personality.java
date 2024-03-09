@@ -9,7 +9,7 @@ public class personality {
 
     personality(algo a, String s){
         setAlgo(a);
-        setPopulation(10);
+        setPopulation(0);
         setName(s);
     }
     public void setAlgo(algo a){

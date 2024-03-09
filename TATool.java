@@ -24,7 +24,7 @@ public class TATool {
     * */
 
     public static void main(String[] args) {
-        int[] initPops = {10, 10, 10, 10, 10, 10, 10, 10}; //Change these numbers to change initial populations.
+        int[] initPops = {10,10,10,10,10,10,10,10}; //Change these numbers to change initial populations.
         int rounds = 1000; //Change this number to increase/decrease simulation length (Numbers of years program will run)
         int iterations = 100; //Change this number to increase/decrease the iterations of the simulation. Higher number = more statistical precision but longer runtime
         int popSize = 1000; //Change this number to change growth factor. Affects max size of population.
