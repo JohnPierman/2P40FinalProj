@@ -9,7 +9,7 @@ public class battler {
     public static retValues simulate(algo algoA, algo algoB){
         retValues returnValues = new retValues();
         boolean algoADecision, algoBDecision = false;
-        for(int roundCount = 0; roundCount<100; roundCount++){
+        for(int roundCount = 0; roundCount<50; roundCount++){
             algoADecision = algoA.postMove();
             algoBDecision = algoB.postMove();
             if (algoADecision == algoBDecision && algoADecision) { //Both cooperate

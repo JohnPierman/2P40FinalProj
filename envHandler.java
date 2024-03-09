@@ -3,28 +3,14 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.File;
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 import algorithms.*;
 
 public class envHandler {
 
     /*carrying capacity function f(x) = 500(1-e^(kx/1000), k is a constant around 1
-     * This comes from the equation f(x) = c + ae^(-kx), where c, a and k are constants
-     * c represents the maximum points obtainable in one round
-     * Then we use the point f(0) = 0 to start correctly mapping the function. which gives us a = 500
-     * Finally for ease on typing when we type {-} or {+} we are referring to the limit as you approach
-     * from the negative or positive side respectively
-     * We start with, 500{-} = 500(1-e^(k*1000) because we want the maximal point total necessary at the carrying capacity
-     * 500{-}/500 = 1- e^(k*1000)
-     * 1{-} - 1 = -e^(k*1000)
-     * So ln(0{+})/1000 = k.
-     * Experimentally I found the nicest graphs for curves existed around 0.005-0.007 instead of 0{+}
-     * This is because there will still be decently steep growth for a sufficient time before it cuts off,
-     * but doesn't flatten out as rapidly.
-     *
+     * This comes from the equation f(x) = c + ae^(-kx), where c, a and k are constants     *
      *
      * Notes:
      *
@@ -67,8 +53,6 @@ public class envHandler {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        //System.out.println((100 * (float) round / maxRounds) + "% Processed");
     }
 
     public static personality[] runEnv(int size, int rounds, int[] initPops) {
@@ -110,13 +94,13 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            outputTable(algos, i + 1, rounds, size);
+            //outputTable(algos, i + 1, rounds, size); UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
             int[] tempPop = createTempPopArr(algos);
             while (totalPopulation(tempPop) > 1) {
                 aCheck = false;
                 bCheck = false;
                 int a = 0;
-                while (aCheck == false) {
+                while (!aCheck) {
                     a = (int) Math.floor(8 * Math.random());
                     if (tempPop[a] > 0) {
                         tempPop[a]--;
@@ -124,7 +108,7 @@ public class envHandler {
                     }
                 }
                 int b = 0;
-                while (bCheck == false) {
+                while (!bCheck) {
                     b = (int) Math.floor(8 * Math.random());
                     if (tempPop[b] > 0) {
                         tempPop[b]--;
@@ -132,12 +116,6 @@ public class envHandler {
                     }
                 }
                 retValues = battler.simulate(algos[a].Algo, algos[b].Algo);
-                /*if (i < 10) {
-                    if (a == 1 || b == 1) {
-                        System.out.println("A:" + retValues.algoApoints + "B: " + retValues.algoBpoints);
-                        System.out.println("Algo A:" + a + "Algo B: " + b);
-                    }
-                }*/
 
                 algos[a].setPointTally(algos[a].pointTally + retValues.algoApoints);
                 algos[b].setPointTally(algos[b].pointTally + retValues.algoBpoints);
@@ -148,27 +126,11 @@ public class envHandler {
                     populationDecay[j][k] = populationDecay[j][k - 1];
                 }
                 int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)), size);
-                //System.out.println("Population: "+ algos[j].population+"Net Children: "+ (newChildren - populationDecay[j][4]));
                 algos[j].setPopulation(newChildren - populationDecay[j][4]);
                 populationDecay[j][0] = newChildren;
             }
         }
         return algos;
     }
-
-    public static void main(String[] args) {
-        personality[] results = runEnv(2000, 1000, new int[]{0, 0, 0, 0, 0, 0, 0, 0});
-    }
-        /*int j = 0;
-        for(int i = 0; i < 1000; i++){
-
-            if (results[2].population == 0){
-                j++;
-            }
-            System.out.println((100 * (float) i / 1000) + "% Completed");
-        }
-        System.out.println(j);
-        System.out.println((float)j/1000);
-    }*/
 }
 
