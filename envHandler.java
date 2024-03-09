@@ -89,7 +89,6 @@ public class envHandler {
         algos[6] = new personality(new twobackoneforward(), "twobackoneforward");
         algos[7] = new personality(new twoforwardoneback(), "twoforwardoneback");
         //modify IVS
-        //algos[0].setPopulation(-5);
         //Naughty Algos
         algos[2].setPopulation(initPops[2]);
         algos[6].setPopulation(initPops[6]);
