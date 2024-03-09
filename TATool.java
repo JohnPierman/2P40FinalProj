@@ -39,16 +39,16 @@ public class TATool {
         }
         //The Array finalPops contains the data for all finalPopulations. If analysis is wanted for % of finals states
         //manipulation of this array may be useful. This example checks how many times (and percent) the second algorithm goes to 0:
-        /*
-        * /*int j = 0;
-            for(int i = 0; i < iterations; i++){
-                if (finalPops[2][i].population == 0){
-                    j++;
-                }
+        /*int p = 0;
+        for(int k = 0; k < iterations; k++){
+            if (finalPops[2][k] == 0){
+                p++;
             }
-            System.out.println(j);
-            System.out.println((float)j/1000);
-        }*/
+        }
+        System.out.println(p);
+        System.out.println(100 * (float)p/iterations);
+        
+         */
         float totalMeanPops = 0;
         for (int j = 0; j < 8; j++) {
             float sum = 0;

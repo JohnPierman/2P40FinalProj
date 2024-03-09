@@ -94,7 +94,7 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            //outputTable(algos, i + 1, rounds, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
+            //(algos, i + 1, rounds, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
             int[] tempPop = createTempPopArr(algos);
             while (totalPopulation(tempPop) > 1) {
                 aCheck = false;
