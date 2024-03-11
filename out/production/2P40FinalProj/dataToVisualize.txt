@@ -1,0 +1,909 @@
+Round: 1, Total Population: 1100, Points Needed To Reproduce: 668
+Name: alternate, Population: 100, Point Tally: 0
+Name: alwaysC, Population: 700, Point Tally: 0
+Name: alwaysD, Population: 100, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 100, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 100, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 2, Total Population: 1511, Points Needed To Reproduce: 780
+Name: alternate, Population: 135, Point Tally: 0
+Name: alwaysC, Population: 986, Point Tally: 0
+Name: alwaysD, Population: 131, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 126, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 133, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 3, Total Population: 2005, Points Needed To Reproduce: 866
+Name: alternate, Population: 174, Point Tally: 0
+Name: alwaysC, Population: 1338, Point Tally: 0
+Name: alwaysD, Population: 170, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 156, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 167, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 4, Total Population: 2604, Points Needed To Reproduce: 927
+Name: alternate, Population: 217, Point Tally: 0
+Name: alwaysC, Population: 1773, Point Tally: 0
+Name: alwaysD, Population: 215, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 191, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 208, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 5, Total Population: 2256, Points Needed To Reproduce: 896
+Name: alternate, Population: 170, Point Tally: 0
+Name: alwaysC, Population: 1621, Point Tally: 0
+Name: alwaysD, Population: 170, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 135, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 160, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 6, Total Population: 2518, Points Needed To Reproduce: 920
+Name: alternate, Population: 177, Point Tally: 0
+Name: alwaysC, Population: 1852, Point Tally: 0
+Name: alwaysD, Population: 184, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 138, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 167, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 7, Total Population: 2762, Points Needed To Reproduce: 937
+Name: alternate, Population: 179, Point Tally: 0
+Name: alwaysC, Population: 2079, Point Tally: 0
+Name: alwaysD, Population: 192, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 138, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 174, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 8, Total Population: 2965, Points Needed To Reproduce: 949
+Name: alternate, Population: 174, Point Tally: 0
+Name: alwaysC, Population: 2284, Point Tally: 0
+Name: alwaysD, Population: 201, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 132, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 174, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 9, Total Population: 3067, Points Needed To Reproduce: 954
+Name: alternate, Population: 162, Point Tally: 0
+Name: alwaysC, Population: 2431, Point Tally: 0
+Name: alwaysD, Population: 198, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 114, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 162, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 10, Total Population: 3282, Points Needed To Reproduce: 963
+Name: alternate, Population: 159, Point Tally: 0
+Name: alwaysC, Population: 2649, Point Tally: 0
+Name: alwaysD, Population: 207, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 109, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 158, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 11, Total Population: 3488, Points Needed To Reproduce: 970
+Name: alternate, Population: 153, Point Tally: 0
+Name: alwaysC, Population: 2870, Point Tally: 0
+Name: alwaysD, Population: 212, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 100, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 153, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 12, Total Population: 3689, Points Needed To Reproduce: 976
+Name: alternate, Population: 149, Point Tally: 0
+Name: alwaysC, Population: 3086, Point Tally: 0
+Name: alwaysD, Population: 215, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 90, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 149, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 13, Total Population: 3899, Points Needed To Reproduce: 980
+Name: alternate, Population: 139, Point Tally: 0
+Name: alwaysC, Population: 3307, Point Tally: 0
+Name: alwaysD, Population: 227, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 83, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 143, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 14, Total Population: 4134, Points Needed To Reproduce: 984
+Name: alternate, Population: 130, Point Tally: 0
+Name: alwaysC, Population: 3549, Point Tally: 0
+Name: alwaysD, Population: 239, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 76, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 140, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 15, Total Population: 4377, Points Needed To Reproduce: 988
+Name: alternate, Population: 121, Point Tally: 0
+Name: alwaysC, Population: 3799, Point Tally: 0
+Name: alwaysD, Population: 253, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 69, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 135, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 16, Total Population: 4631, Points Needed To Reproduce: 991
+Name: alternate, Population: 112, Point Tally: 0
+Name: alwaysC, Population: 4056, Point Tally: 0
+Name: alwaysD, Population: 270, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 64, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 129, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 17, Total Population: 4896, Points Needed To Reproduce: 993
+Name: alternate, Population: 107, Point Tally: 0
+Name: alwaysC, Population: 4325, Point Tally: 0
+Name: alwaysD, Population: 280, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 57, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 127, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 18, Total Population: 5180, Points Needed To Reproduce: 995
+Name: alternate, Population: 102, Point Tally: 0
+Name: alwaysC, Population: 4611, Point Tally: 0
+Name: alwaysD, Population: 293, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 50, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 124, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 19, Total Population: 5482, Points Needed To Reproduce: 996
+Name: alternate, Population: 99, Point Tally: 0
+Name: alwaysC, Population: 4906, Point Tally: 0
+Name: alwaysD, Population: 312, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 45, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 120, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 20, Total Population: 5801, Points Needed To Reproduce: 997
+Name: alternate, Population: 94, Point Tally: 0
+Name: alwaysC, Population: 5228, Point Tally: 0
+Name: alwaysD, Population: 323, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 40, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 116, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 21, Total Population: 6144, Points Needed To Reproduce: 998
+Name: alternate, Population: 89, Point Tally: 0
+Name: alwaysC, Population: 5564, Point Tally: 0
+Name: alwaysD, Population: 343, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 36, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 112, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 22, Total Population: 6505, Points Needed To Reproduce: 999
+Name: alternate, Population: 82, Point Tally: 0
+Name: alwaysC, Population: 5928, Point Tally: 0
+Name: alwaysD, Population: 354, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 33, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 108, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 23, Total Population: 6892, Points Needed To Reproduce: 999
+Name: alternate, Population: 74, Point Tally: 0
+Name: alwaysC, Population: 6314, Point Tally: 0
+Name: alwaysD, Population: 369, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 31, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 104, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 24, Total Population: 7311, Points Needed To Reproduce: 1000
+Name: alternate, Population: 72, Point Tally: 0
+Name: alwaysC, Population: 6713, Point Tally: 0
+Name: alwaysD, Population: 396, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 28, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 102, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 25, Total Population: 7752, Points Needed To Reproduce: 1000
+Name: alternate, Population: 65, Point Tally: 0
+Name: alwaysC, Population: 7143, Point Tally: 0
+Name: alwaysD, Population: 420, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 25, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 99, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 26, Total Population: 8227, Points Needed To Reproduce: 1000
+Name: alternate, Population: 62, Point Tally: 0
+Name: alwaysC, Population: 7593, Point Tally: 0
+Name: alwaysD, Population: 454, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 23, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 95, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 27, Total Population: 8731, Points Needed To Reproduce: 1000
+Name: alternate, Population: 61, Point Tally: 0
+Name: alwaysC, Population: 8072, Point Tally: 0
+Name: alwaysD, Population: 484, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 20, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 94, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 28, Total Population: 9265, Points Needed To Reproduce: 1000
+Name: alternate, Population: 58, Point Tally: 0
+Name: alwaysC, Population: 8584, Point Tally: 0
+Name: alwaysD, Population: 515, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 18, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 90, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 29, Total Population: 9836, Points Needed To Reproduce: 1000
+Name: alternate, Population: 55, Point Tally: 0
+Name: alwaysC, Population: 9124, Point Tally: 0
+Name: alwaysD, Population: 553, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 15, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 89, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 30, Total Population: 10445, Points Needed To Reproduce: 1000
+Name: alternate, Population: 51, Point Tally: 0
+Name: alwaysC, Population: 9699, Point Tally: 0
+Name: alwaysD, Population: 594, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 13, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 88, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 31, Total Population: 11093, Points Needed To Reproduce: 1000
+Name: alternate, Population: 48, Point Tally: 0
+Name: alwaysC, Population: 10309, Point Tally: 0
+Name: alwaysD, Population: 637, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 12, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 87, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 32, Total Population: 11780, Points Needed To Reproduce: 1000
+Name: alternate, Population: 41, Point Tally: 0
+Name: alwaysC, Population: 10959, Point Tally: 0
+Name: alwaysD, Population: 680, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 10, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 90, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 33, Total Population: 12511, Points Needed To Reproduce: 1000
+Name: alternate, Population: 38, Point Tally: 0
+Name: alwaysC, Population: 11658, Point Tally: 0
+Name: alwaysD, Population: 718, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 10, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 87, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 34, Total Population: 13289, Points Needed To Reproduce: 1000
+Name: alternate, Population: 35, Point Tally: 0
+Name: alwaysC, Population: 12392, Point Tally: 0
+Name: alwaysD, Population: 766, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 8, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 88, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 35, Total Population: 14119, Points Needed To Reproduce: 1000
+Name: alternate, Population: 29, Point Tally: 0
+Name: alwaysC, Population: 13166, Point Tally: 0
+Name: alwaysD, Population: 831, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 6, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 87, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 36, Total Population: 15001, Points Needed To Reproduce: 1000
+Name: alternate, Population: 28, Point Tally: 0
+Name: alwaysC, Population: 13989, Point Tally: 0
+Name: alwaysD, Population: 896, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 5, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 83, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 37, Total Population: 15940, Points Needed To Reproduce: 1000
+Name: alternate, Population: 26, Point Tally: 0
+Name: alwaysC, Population: 14851, Point Tally: 0
+Name: alwaysD, Population: 979, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 3, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 81, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 38, Total Population: 16934, Points Needed To Reproduce: 1000
+Name: alternate, Population: 23, Point Tally: 0
+Name: alwaysC, Population: 15769, Point Tally: 0
+Name: alwaysD, Population: 1061, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 2, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 79, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 39, Total Population: 17983, Points Needed To Reproduce: 1000
+Name: alternate, Population: 23, Point Tally: 0
+Name: alwaysC, Population: 16749, Point Tally: 0
+Name: alwaysD, Population: 1135, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 1, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 75, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 40, Total Population: 19097, Points Needed To Reproduce: 1000
+Name: alternate, Population: 21, Point Tally: 0
+Name: alwaysC, Population: 17783, Point Tally: 0
+Name: alwaysD, Population: 1221, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 72, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 41, Total Population: 20279, Points Needed To Reproduce: 1000
+Name: alternate, Population: 19, Point Tally: 0
+Name: alwaysC, Population: 18878, Point Tally: 0
+Name: alwaysD, Population: 1312, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 70, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 42, Total Population: 21532, Points Needed To Reproduce: 1000
+Name: alternate, Population: 18, Point Tally: 0
+Name: alwaysC, Population: 20038, Point Tally: 0
+Name: alwaysD, Population: 1410, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 66, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 43, Total Population: 22861, Points Needed To Reproduce: 1000
+Name: alternate, Population: 17, Point Tally: 0
+Name: alwaysC, Population: 21268, Point Tally: 0
+Name: alwaysD, Population: 1513, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 63, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 44, Total Population: 24267, Points Needed To Reproduce: 1000
+Name: alternate, Population: 15, Point Tally: 0
+Name: alwaysC, Population: 22576, Point Tally: 0
+Name: alwaysD, Population: 1616, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 60, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 45, Total Population: 25758, Points Needed To Reproduce: 1000
+Name: alternate, Population: 13, Point Tally: 0
+Name: alwaysC, Population: 23960, Point Tally: 0
+Name: alwaysD, Population: 1728, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 57, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 46, Total Population: 27343, Points Needed To Reproduce: 1000
+Name: alternate, Population: 11, Point Tally: 0
+Name: alwaysC, Population: 25415, Point Tally: 0
+Name: alwaysD, Population: 1863, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 54, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 47, Total Population: 29022, Points Needed To Reproduce: 1000
+Name: alternate, Population: 9, Point Tally: 0
+Name: alwaysC, Population: 26955, Point Tally: 0
+Name: alwaysD, Population: 2004, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 54, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 48, Total Population: 30801, Points Needed To Reproduce: 1000
+Name: alternate, Population: 8, Point Tally: 0
+Name: alwaysC, Population: 28582, Point Tally: 0
+Name: alwaysD, Population: 2160, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 51, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 49, Total Population: 32686, Points Needed To Reproduce: 1000
+Name: alternate, Population: 7, Point Tally: 0
+Name: alwaysC, Population: 30285, Point Tally: 0
+Name: alwaysD, Population: 2344, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 50, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 50, Total Population: 34673, Points Needed To Reproduce: 1000
+Name: alternate, Population: 6, Point Tally: 0
+Name: alwaysC, Population: 32095, Point Tally: 0
+Name: alwaysD, Population: 2524, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 48, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 51, Total Population: 36776, Points Needed To Reproduce: 1000
+Name: alternate, Population: 4, Point Tally: 0
+Name: alwaysC, Population: 33993, Point Tally: 0
+Name: alwaysD, Population: 2733, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 46, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 52, Total Population: 38994, Points Needed To Reproduce: 1000
+Name: alternate, Population: 2, Point Tally: 0
+Name: alwaysC, Population: 35995, Point Tally: 0
+Name: alwaysD, Population: 2952, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 45, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 53, Total Population: 41329, Points Needed To Reproduce: 1000
+Name: alternate, Population: 1, Point Tally: 0
+Name: alwaysC, Population: 38123, Point Tally: 0
+Name: alwaysD, Population: 3163, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 42, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 54, Total Population: 43798, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 40353, Point Tally: 0
+Name: alwaysD, Population: 3404, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 41, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 55, Total Population: 46401, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 42709, Point Tally: 0
+Name: alwaysD, Population: 3651, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 41, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 56, Total Population: 49160, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 45160, Point Tally: 0
+Name: alwaysD, Population: 3961, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 39, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 57, Total Population: 52062, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 47747, Point Tally: 0
+Name: alwaysD, Population: 4278, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 37, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 58, Total Population: 55116, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 50468, Point Tally: 0
+Name: alwaysD, Population: 4614, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 34, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 59, Total Population: 58338, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 53302, Point Tally: 0
+Name: alwaysD, Population: 5005, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 31, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 60, Total Population: 61704, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 56317, Point Tally: 0
+Name: alwaysD, Population: 5357, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 30, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 61, Total Population: 65263, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 59445, Point Tally: 0
+Name: alwaysD, Population: 5790, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 28, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 62, Total Population: 69005, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 62704, Point Tally: 0
+Name: alwaysD, Population: 6274, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 27, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 63, Total Population: 72925, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 66121, Point Tally: 0
+Name: alwaysD, Population: 6779, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 25, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 64, Total Population: 77043, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 69680, Point Tally: 0
+Name: alwaysD, Population: 7342, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 21, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 65, Total Population: 81343, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 73401, Point Tally: 0
+Name: alwaysD, Population: 7921, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 21, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 66, Total Population: 85846, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 77274, Point Tally: 0
+Name: alwaysD, Population: 8553, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 19, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 67, Total Population: 90553, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 81318, Point Tally: 0
+Name: alwaysD, Population: 9218, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 17, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 68, Total Population: 95471, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 85524, Point Tally: 0
+Name: alwaysD, Population: 9929, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 18, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 69, Total Population: 100611, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 89895, Point Tally: 0
+Name: alwaysD, Population: 10702, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 14, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 70, Total Population: 105959, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 94473, Point Tally: 0
+Name: alwaysD, Population: 11473, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 13, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 71, Total Population: 111552, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 99203, Point Tally: 0
+Name: alwaysD, Population: 12338, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 11, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 72, Total Population: 117394, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 104073, Point Tally: 0
+Name: alwaysD, Population: 13312, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 9, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 73, Total Population: 123480, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 109085, Point Tally: 0
+Name: alwaysD, Population: 14387, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 8, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 74, Total Population: 129803, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 114250, Point Tally: 0
+Name: alwaysD, Population: 15546, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 7, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 75, Total Population: 136351, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 119554, Point Tally: 0
+Name: alwaysD, Population: 16790, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 7, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 76, Total Population: 143122, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 124995, Point Tally: 0
+Name: alwaysD, Population: 18121, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 6, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 77, Total Population: 150088, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 130647, Point Tally: 0
+Name: alwaysD, Population: 19435, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 6, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 78, Total Population: 157303, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 136386, Point Tally: 0
+Name: alwaysD, Population: 20912, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 5, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 79, Total Population: 164758, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 142191, Point Tally: 0
+Name: alwaysD, Population: 22564, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 3, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 80, Total Population: 172412, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 148125, Point Tally: 0
+Name: alwaysD, Population: 24285, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 2, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 81, Total Population: 180282, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 154114, Point Tally: 0
+Name: alwaysD, Population: 26167, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 1, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 82, Total Population: 188341, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 160118, Point Tally: 0
+Name: alwaysD, Population: 28223, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 83, Total Population: 196556, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 166148, Point Tally: 0
+Name: alwaysD, Population: 30408, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 84, Total Population: 204922, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 172150, Point Tally: 0
+Name: alwaysD, Population: 32772, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 85, Total Population: 213419, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 178037, Point Tally: 0
+Name: alwaysD, Population: 35382, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 86, Total Population: 221981, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 183823, Point Tally: 0
+Name: alwaysD, Population: 38158, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 87, Total Population: 230571, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 189480, Point Tally: 0
+Name: alwaysD, Population: 41091, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 88, Total Population: 239171, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 194885, Point Tally: 0
+Name: alwaysD, Population: 44286, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 89, Total Population: 247718, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 199979, Point Tally: 0
+Name: alwaysD, Population: 47739, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 90, Total Population: 256172, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 204653, Point Tally: 0
+Name: alwaysD, Population: 51519, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 91, Total Population: 264406, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 208956, Point Tally: 0
+Name: alwaysD, Population: 55450, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 92, Total Population: 272398, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 212658, Point Tally: 0
+Name: alwaysD, Population: 59740, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 93, Total Population: 280039, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 215701, Point Tally: 0
+Name: alwaysD, Population: 64338, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 94, Total Population: 287215, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 218018, Point Tally: 0
+Name: alwaysD, Population: 69197, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 95, Total Population: 293889, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 219335, Point Tally: 0
+Name: alwaysD, Population: 74554, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 96, Total Population: 299866, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 219590, Point Tally: 0
+Name: alwaysD, Population: 80276, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 97, Total Population: 305032, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 218571, Point Tally: 0
+Name: alwaysD, Population: 86461, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 98, Total Population: 309226, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 216072, Point Tally: 0
+Name: alwaysD, Population: 93154, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 99, Total Population: 312284, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 211754, Point Tally: 0
+Name: alwaysD, Population: 100530, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 100, Total Population: 313924, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 205532, Point Tally: 0
+Name: alwaysD, Population: 108392, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0
+Round: 101, Total Population: 313921, Points Needed To Reproduce: 1000
+Name: alternate, Population: 0, Point Tally: 0
+Name: alwaysC, Population: 197103, Point Tally: 0
+Name: alwaysD, Population: 116818, Point Tally: 0
+Name: opposite, Population: 0, Point Tally: 0
+Name: tit4tat, Population: 0, Point Tally: 0
+Name: tit42tats, Population: 0, Point Tally: 0
+Name: twobackoneforward, Population: 0, Point Tally: 0
+Name: twoforwardoneback, Population: 0, Point Tally: 0

@@ -3,7 +3,10 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.File;
-
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
 
 import algorithms.*;
 
@@ -17,9 +20,9 @@ public class envHandler {
      * I ran 100000 simulations of just c=15, d=5, and got that it converges to d=0 78009 out of 100000 times
      * or almost exactly 78%
      */
-    public static int carryingCapacity(int p, int size) {
+    public static int carryingCapacity(int p, double size) {
         double k = 1;
-        return (int) Math.ceil((size * (1 - Math.exp(5 * (k / 10000) * -p))));
+        return (int) Math.ceil((size * (1 - Math.exp((k / 1000) * (-p)))));
     }
 
     public static int totalPopulation(int[] arr) {
@@ -38,11 +41,11 @@ public class envHandler {
         return tempPop;
     }
 
-    public static int createChildren(personality p, int pop, int size) {
+    public static int createChildren(personality p, int pop, double size) {
         return (int) Math.floor((double) p.pointTally / carryingCapacity(pop, size));
     }
 
-    public static void outputTable(personality[] algos, int round, int maxRounds, int size) {
+    public static void outputTable(personality[] algos, int round, int maxRounds, double size) {
         String filePath = "dataToVisualize.txt";
         try (PrintWriter out = new PrintWriter(new FileWriter(filePath, true))) { // true for append mode, but file is deleted each time method is called
             int n = totalPopulation(createTempPopArr(algos));
@@ -55,7 +58,7 @@ public class envHandler {
         }
     }
 
-    public static personality[] runEnv(int size, int rounds, int[] initPops) {
+    public static personality[] runEnv(double size, int rounds, int[] initPops) {
         boolean aCheck = false;
         boolean bCheck = false;
         String filePath = "dataToVisualize.txt";
@@ -94,7 +97,7 @@ public class envHandler {
             for (j = 0; j < 8; j++) {
                 algos[j].setPointTally(0);
             }
-            //(algos, i + 1, rounds, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
+            outputTable(algos, i + 1, rounds, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
             int[] tempPop = createTempPopArr(algos);
             while (totalPopulation(tempPop) > 1) {
                 aCheck = false;
