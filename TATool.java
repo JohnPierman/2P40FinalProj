@@ -9,8 +9,8 @@ public class TATool {
     3: Opposite
     4: Tit For Tat
     5: Tit For 2 Tats
-    6: Two Back One Forward
-    7: Two Forward One Back
+    6: Two Forward One Back
+    7: Two Back One Forward
     */
     public static int findIndexOfMax(int[] array) { //Simple helper method for finding Dominant Algorithm
         int maxIndex = 0;
