@@ -1,7 +1,4 @@
 import java.util.Arrays;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 
 public class TATool {
 
@@ -84,14 +81,19 @@ public class TATool {
     public static int[] CustomTool() { //Tool that allows to freely customize values. Tips: Keep popSize [1000,2000].
         int rounds = 1000;
         double popSize = 1500;
-        int[] initPops = {100, 100, 100, 100, 100, 100, 100, 100}
-        return envHandler.runEnv(popSize,roumds,initPops);
+        int[] initPops = {100, 100, 100, 100, 100, 100, 100, 100};
+        personality[] finalPersonalities = envHandler.runEnv(popSize,rounds,initPops);
+        int[] finalPops = new int[8];
+        for (int j = 0; j < 8; j++) {
+            finalPops[j] = finalPersonalities[j].population;
+        }
+        return finalPops;
     }
 
     public static void main(String[] args) { //Only have one tool uncommented at a time.
         //int[] results = SurvivabilityTool();
-        //int[] results = CustomTool();
-        int[] results = DominanceTool();
+        int[] results = CustomTool();
+        //int[] results = DominanceTool();
         for (int i = 0; i < results.length; i++) {
             System.out.println("Index " + i + ": " + results[i]);
 
