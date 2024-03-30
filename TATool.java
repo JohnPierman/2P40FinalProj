@@ -91,8 +91,8 @@ public class TATool {
     }
 
     public static void main(String[] args) { //Only have one tool uncommented at a time.
-        //int[] results = SurvivabilityTool();
-        int[] results = CustomTool();
+        int[] results = SurvivabilityTool();
+        //int[] results = CustomTool();
         //int[] results = DominanceTool();
         for (int i = 0; i < results.length; i++) {
             System.out.println("Index " + i + ": " + results[i]);
