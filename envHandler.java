@@ -4,25 +4,18 @@ import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.File;
 
-
 import algorithms.*;
 
 public class envHandler {
 
-    /*carrying capacity function f(x) = 500(1-e^(kx/1000), k is a constant around 1
-     * This comes from the equation f(x) = c + ae^(-kx), where c, a and k are constants     *
-     *
-     * Notes:
-     *
-     * I ran 100000 simulations of just c=15, d=5, and got that it converges to d=0 78009 out of 100000 times
-     * or almost exactly 78%
-     */
-    public static int carryingCapacity(int p, int size) {
+    //Simple Method that helps calculate how many points are required to create new cells.
+    //In general, a higher return value means it is "more difficult" for new cells to be created.
+    public static int carryingCapacity(int p, double size) {
         double k = 1;
-        return (int) Math.ceil((size * (1 - Math.exp(5 * (k / 10000) * -p))));
+        return (int) Math.ceil((size * (1 - Math.exp((k / 1000) * (-p)))));
     }
 
-    public static int totalPopulation(int[] arr) {
+    public static int totalPopulation(int[] arr) { //Sum an integer array
         int j = 0;
         for (int i : arr) {
             j += i;
@@ -30,7 +23,7 @@ public class envHandler {
         return j;
     }
 
-    public static int[] createTempPopArr(personality[] arr) {
+    public static int[] createTempPopArr(personality[] arr) { //Creates a temporary int array with the same values as the personality array's populations.
         int[] tempPop = new int[8];
         for (int j = 0; j < 8; j++) {
             tempPop[j] = arr[j].population;
@@ -38,11 +31,12 @@ public class envHandler {
         return tempPop;
     }
 
-    public static int createChildren(personality p, int pop, int size) {
+    public static int createChildren(personality p, int pop, double size) { //Create children using the carrying capacity method and the personality's point tally.
         return (int) Math.floor((double) p.pointTally / carryingCapacity(pop, size));
     }
 
-    public static void outputTable(personality[] algos, int round, int maxRounds, int size) {
+    //Method that outputs data to the "dataToVisualize.txt" file. This file allows visualizeData.py to create a historic picture of the populations as in Example.png
+    public static void outputTable(personality[] algos, int round, double size) {
         String filePath = "dataToVisualize.txt";
         try (PrintWriter out = new PrintWriter(new FileWriter(filePath, true))) { // true for append mode, but file is deleted each time method is called
             int n = totalPopulation(createTempPopArr(algos));
@@ -55,7 +49,7 @@ public class envHandler {
         }
     }
 
-    public static personality[] runEnv(int size, int rounds, int[] initPops) {
+    public static personality[] runEnv(double size, int rounds, int[] initPops) { //The main method that runs the simulation
         boolean aCheck = false;
         boolean bCheck = false;
         String filePath = "dataToVisualize.txt";
@@ -63,7 +57,7 @@ public class envHandler {
         if (file.exists()) {
             file.delete();
         }
-        personality[] algos = new personality[8];
+        personality[] algos = new personality[8]; //Define our 8 personalities
         algos[0] = new personality(new alternate(), "alternate");
         algos[1] = new personality(new alwaysC(), "alwaysC");
         algos[2] = new personality(new alwaysD(), "alwaysD");
@@ -72,7 +66,7 @@ public class envHandler {
         algos[5] = new personality(new titfor2tat(), "tit42tats");
         algos[6] = new personality(new twobackoneforward(), "twobackoneforward");
         algos[7] = new personality(new twoforwardoneback(), "twoforwardoneback");
-        //modify IVS
+        //modify IVS -> Note: this following part could be simplified by overloading the creation of the personalities.
         //Naughty Algos
         algos[2].setPopulation(initPops[2]);
         algos[6].setPopulation(initPops[6]);
@@ -86,16 +80,20 @@ public class envHandler {
         algos[5].setPopulation(initPops[5]);
         battler.retValues retValues;
         int j;
-        int[][] populationDecay = new int[8][5];
-        for (j = 0; j < 8; j++) {
+        int[][] populationDecay = new int[8][5]; //Initialize our population decay array.
+        for (j = 0; j < 8; j++) { // Set the first element in each personalities array as their initial population
             populationDecay[j][0] = algos[j].population;
         }
         for (int i = 0; i < rounds; i++) {
             for (j = 0; j < 8; j++) {
-                algos[j].setPointTally(0);
+                algos[j].setPointTally(0); //Resets all personalities point tally to 0.
             }
-            //(algos, i + 1, rounds, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE
-            int[] tempPop = createTempPopArr(algos);
+            //outputTable(algos, i + 1, size); //UNCOMMENT THIS LINE TO OUTPUT TO DATA TO VISUALIZE -> Slows program when using many iterations.
+            int[] tempPop = createTempPopArr(algos); //Create an integer array that represents population
+            // The following loop is best explained as a whole than line by line.
+            // The idea behind this loop is that it matches each cell from a personality to another random cell in the ecosystem,
+            // one by one until there are no (or one because it wouldn't have a match) cells left.
+            // There are checks to make sure it doesn't match to a personality with 0 cells remaining.
             while (totalPopulation(tempPop) > 1) {
                 aCheck = false;
                 bCheck = false;
@@ -115,18 +113,18 @@ public class envHandler {
                         bCheck = true;
                     }
                 }
-                retValues = battler.simulate(algos[a].Algo, algos[b].Algo);
+                retValues = battler.simulate(algos[a].Algo, algos[b].Algo); //Run the battle on each of the random cell matches
 
-                algos[a].setPointTally(algos[a].pointTally + retValues.algoApoints);
+                algos[a].setPointTally(algos[a].pointTally + retValues.algoApoints); //Update the point totals of each personality
                 algos[b].setPointTally(algos[b].pointTally + retValues.algoBpoints);
             }
-
+            //Apply the population decay: after 5 iterations cells "die", and are subtracted from their point total.
             for (j = 0; j < 8; j++) {
                 for (int k = 4; k > 0; k--) {
                     populationDecay[j][k] = populationDecay[j][k - 1];
                 }
-                int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)), size);
-                algos[j].setPopulation(newChildren - populationDecay[j][4]);
+                int newChildren = createChildren(algos[j], totalPopulation(createTempPopArr(algos)), size); //Create new cells depending on the total population size, point total, and size environment argument
+                algos[j].setPopulation(newChildren - populationDecay[j][4]); //Update populations of personalities
                 populationDecay[j][0] = newChildren;
             }
         }
